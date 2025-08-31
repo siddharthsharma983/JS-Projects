@@ -1,10 +1,4 @@
-Total 5 Projects
-
-2nd Complete
-
-Code:-
-
-Html.index
+(Code:-Html.index)
 
 <!DOCTYPE html>
 <html lang="en">
@@ -24,7 +18,7 @@ Html.index
 </html>
 
 
-style.css
+(Code - Style.CSS)
 
 * {
     margin: 0;
@@ -62,7 +56,7 @@ h1{
 }
 
 
-script.js
+(Code - Script.js)
 
 var man = document.querySelector("#main")
 var crsr = document.querySelector(".cursor")
@@ -71,4 +65,5 @@ main.addEventListener("mousemove", function(dets){
     crsr.style.left = dets.x+"px"
     crsr.style.top = dets.y+"px"
     
+
 }) 
