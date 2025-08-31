@@ -1,10 +1,6 @@
-Total 5 Projects
-
-1st Complete 
-
 Add Friend Feature with same button
 
-code:- Html.index
+(Code:- Html.index)
 
 <!DOCTYPE html>
 <html lang="en">
@@ -29,7 +25,7 @@ code:- Html.index
 </html>
 
 
-Style.css code
+(Code - Style.CSS)
 
 *{
     margin: 0;
@@ -90,7 +86,7 @@ body{
 } */
 
 
-Script.js code
+(Code - Script.js)
 
 var isStatus = document.querySelector("h5");
 // var addFriend = document.querySelector("#Add");
@@ -117,3 +113,4 @@ btn.addEventListener("click", function(){
 //     isStatus.innerHTML = "Stranger";
 //     isStatus.style.color = "red";
 // });
+
