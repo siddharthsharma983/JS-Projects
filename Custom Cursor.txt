@@ -1,0 +1,74 @@
+Total 5 Projects
+
+2nd Complete
+
+Code:-
+
+Html.index
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom cursor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div class="cursor"></div>
+        <h1>Pandit</h1>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+style.css
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilory', sans-serif;
+    color: #ffff;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0 , 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cursor{
+    height: 20px;
+    width: 20px;
+    background-color:white;
+    mix-blend-mode: difference;
+    border-radius: 50%;
+    position: absolute;
+    transition: all linear 0.2s;
+}
+h1{
+    font-size: 9vw;
+    font-weight: 900;
+
+}
+
+
+script.js
+
+var man = document.querySelector("#main")
+var crsr = document.querySelector(".cursor")
+
+main.addEventListener("mousemove", function(dets){
+    crsr.style.left = dets.x+"px"
+    crsr.style.top = dets.y+"px"
+    
+}) 
