@@ -1,0 +1,11 @@
+5 project
+
+1. Add Friend Feature with same button (Complete)
+
+2. Insta Love button (Complete)
+
+3. Custom cursor (Complete)
+
+4. Multiple Image hovering Animation (Complete)
+
+5. Insta Story Feature (Complete)
