@@ -1,4 +1,4 @@
-Add Friend Feature with same button
+Project name - Add Friend Feature with same button
 
 (Code:- Html.index)
 
@@ -113,4 +113,5 @@ btn.addEventListener("click", function(){
 //     isStatus.innerHTML = "Stranger";
 //     isStatus.style.color = "red";
 // });
+
 
