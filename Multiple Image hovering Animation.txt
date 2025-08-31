@@ -1,10 +1,7 @@
-Total 5 Projects
+Project name - Multiple Image hovering Animation
 
-4th Complete
 
-Code:-
-
-Html.index
+(Code:- Html.index)
 
 <!DOCTYPE html>
 <html lang="en">
@@ -41,7 +38,7 @@ Html.index
 </html>
 
 
-style.css 
+(Code - Style.CSS)
 
 * {
     margin: 0;
@@ -94,7 +91,7 @@ html, body {
 }
 
 
-script.js
+(Code - Script.js)
 
 var elem = document.querySelectorAll(".elem");
 
@@ -129,4 +126,5 @@ elem.forEach(function(val){
 // elem1.addEventListener("mouseleave", function(dets){
 //     elemImage.style.opacity = 0
 // })
+
 
