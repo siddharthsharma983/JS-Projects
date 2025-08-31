@@ -1,3 +1,6 @@
+Project name - Custom Cursor
+
+
 (Code:-Html.index)
 
 <!DOCTYPE html>
@@ -67,3 +70,4 @@ main.addEventListener("mousemove", function(dets){
     
 
 }) 
+
